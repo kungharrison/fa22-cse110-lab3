@@ -15,10 +15,10 @@
             <button class="favorite styled" type="button"> Add to favorites </button>
         </header>
         <h1>Meeting Minutes Info</h1>
-        <p><strong><em>This website was written by Harrison K.</strong></em><br>Check out my github page:<li><a href="https://github.com">Github</a></li></p>
+        <p><strong><em>This website was written by team leader Harrison K.</strong></em><br>Check out my github page:<li><a href="https://github.com">Github</a></li></p>
         <img src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
         <hr>
-        <p><b><i>A site to help control your meeting minutes.</b></i></p>
+        <p><b><i>A site to help control our meeting minutes.</b></i></p>
         <nav>
             <p>Current Features:</p>
             <ul>
@@ -32,30 +32,26 @@
                 <li>Check Info</li>
             </ol>
         </nav>
-        <label for="ice-cream-choice">Choose a flavor:</label>
-        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
-        <datalist id="ice-cream-flavors">
-            <option value="Chocolate">
-            <option value="Coconut">
-            <option value="Mint">
-            <option value="Strawberry">
-            <option value="Vanilla">
+        <label for="event-choice">Choose an event:</label>
+        <input list="event-choice" id="event-choice" name="event-choice">
+        <datalist id="event-choice">
+            <option value="Software Meeting">
+            <option value="Front-end Dev Meeting">
+            <option value="Ops & Logistics">
         </datalist>
-        <label for="pet-select">Choose a pet:</label>
-        <select name="pets" id="pet-select">
+        <label for="team-select">Choose team member:</label>
+        <select name="team" id="team-select">
             <option value="">--Please choose an option--</option>
-            <option value="dog">Dog</option>
-            <option value="cat">Cat</option>
-            <option value="hamster">Hamster</option>
-            <option value="parrot">Parrot</option>
-            <option value="spider">Spider</option>
-            <option value="goldfish">Goldfish</option>
+            <option value="team1">Bob</option>
+            <option value="team2">Dole</option>
+            <option value="team3">Mary</option>
+            <option value="team4">Jane</option>
         </select>
     </main>
     <section>
         <div>
             <h1>Brainstorming</h1>
-            <p>Meeting minutes help record notes recorded during a meeting.</p>
+            <p>Brainstorm information from the team and polls.</p>
             <details>
                 <summary>Vote on Issue</summary>
                 <form>
@@ -78,7 +74,7 @@
         </div>
         <span>
             <h2>Check-ins</h2>
-            <p>Meeting minutes help record notes recorded during a meeting.</p>
+            <p>Check in here.</p>
             <form>
                 <label for="name">Check in with name:</label><br>
                 <input type="text" id="name" name="name"><br>
@@ -88,7 +84,9 @@
         </span>
         <span>
             <h3>Documentation</h3>
-            <p>Meeting minutes help record notes recorded during a meeting.</p>
+            <p>Documentation and media from the meeting.</p>
+            <img src="screenshots/example.png" alt="Example Website" width="130" height="100">
+            <hr>
             <audio controls src="recordings/chatrecording.mp3"> <a href="recordings/chatrecording.mp4">Meeting Recording</a></a></audio>
             <br>
             <video controls width="250">
