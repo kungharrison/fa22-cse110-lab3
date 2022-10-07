@@ -12,18 +12,20 @@
   <body>
     <main>
         <header>
-            <button class="bookmark" type="bookmark"> Add to bookmarks</button>
+            <button type="bookmark"> Add to bookmarks</button>
         </header>
-        <h1>Project B: First Brainstorm</h1>
-        <h3>Date: 10/15/2022 @ 8:00PM</h3>
+        <span>
+            <h1>Project B: First Brainstorm</h1>
+            <h3>Date: 10/15/2022 @ 8:00PM</h3>
+        </span>
         <img src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
+        <strong><em>This project is managed by team leader Harrison K.</em></strong>
         <p>
-            <strong><em>This project is managed by team leader Harrison K.</strong></em>
             <hr> Project Description: A site to help control our meeting minutes. 
             <br> Link to github: <a href="https://github.com"><i>github.com</i></a>
         </p>
         <hr>
-        <h3><b><i>Meeting Agenda:</b></i></h3>
+        <h3><i><b>Meeting Agenda:</b></i></h3>
         <nav>
             <p>Discuss Current Implemented Features:</p>
             <ul>
@@ -81,25 +83,22 @@
                     </fieldset>
                     <fieldset>
                         <legend>How long do we need?</legend>
-                        <input type="radio" id="createevent" name="createevent" value="createevent">
-                        <label for="createevent">1 week</label><br>
+                        <input type="radio" id="createtime" name="createtime" value="createtime">
+                        <label for="createtime">1 week</label><br>
                         <input type="radio" id="checkinfo" name="checkinfo" value="checkinfo">
                         <label for="checkinfo">2 weeks</label><br>
                     </fieldset>
                 </form>
             </details>
         </div>
-        <span>
-            <h2>Check-ins</h2>
-            <p>Check in here.</p>
-            <form>
-                <label for="name">Check in with name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="date">Check in date:</label><br>
-                <input type="date" id="date" name="date"><br>
-            </form>
-        </span>
-        <span>
+        <h2>Check-ins</h2>
+        <p>Check in here.</p>
+        <form>
+            <label for="name">Check in with name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="date">Check in date:</label><br>
+            <input type="date" id="date" name="date"><br>
+        </form>
             <h2>Documentation</h2>
             <p>Documentation and media from the meeting.</p>
             <h3>Images:</h3>
@@ -116,7 +115,6 @@
                 <source src="/recordings/meetingrecording.mp4" type="video/mp4">
                 Video of Meeting
             </video>
-        </span>
     </section>
     <footer>
         <label for="comments">Comments:</label>
