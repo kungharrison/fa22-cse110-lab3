@@ -12,29 +12,46 @@
   <body>
     <main>
         <header>
-            <button class="favorite styled" type="button"> Add to favorites </button>
+            <button class="bookmark" type="bookmark"> Add to bookmarks</button>
         </header>
-        <h1>Meeting Minutes Info</h1>
-        <p><strong><em>This website was written by team leader Harrison K.</strong></em><br>Check out my github page:<li><a href="https://github.com">Github</a></li></p>
+        <h1>Project B: First Brainstorm</h1>
+        <h3>Date: 10/15/2022 @ 8:00PM</h3>
         <img src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
+        <p>
+            <strong><em>This project is managed by team leader Harrison K.</strong></em>
+            <hr> Project Description: A site to help control our meeting minutes. 
+            <br> Link to github: <a href="https://github.com"><i>github.com</i></a>
+        </p>
         <hr>
-        <p><b><i>A site to help control our meeting minutes.</b></i></p>
+        <h3><b><i>Meeting Agenda:</b></i></h3>
         <nav>
-            <p>Current Features:</p>
+            <p>Discuss Current Implemented Features:</p>
             <ul>
                 <li>Meeting Minutes</li>
                 <li>Meeting Notes</li>
                 <li>Meeting Agenda</li>
             </ul>
-            <p>Upcoming Features:</p>
+            <p>Discuss Upcoming Features:</p>
             <ol>
                 <li>Create an Event</li>
                 <li>Check Info</li>
+                <li>Discuss new Ideas</li>
             </ol>
+            <p>Discuss Unfinished Business:</p>
+            <ul>
+                <li>Improving Performance</li>
+            </ul>
+            <p>Attendance List:</p>
+            <ul>
+                <li>Bob</li>
+                <li>Dole</li>
+                <li>Mary</li>
+                <li>Jane</li>
+            </ul>
         </nav>
-        <label for="event-choice">Choose an event:</label>
-        <input list="event-choice" id="event-choice" name="event-choice">
-        <datalist id="event-choice">
+        <label for="event-choice">Suggest follow-up 1 on 1 meeting:</label>
+        <input list="events" id="event-choice" name="event-choice">
+        <datalist id="events">
             <option value="Software Meeting">
             <option value="Front-end Dev Meeting">
             <option value="Ops & Logistics">
@@ -50,7 +67,7 @@
     </main>
     <section>
         <div>
-            <h1>Brainstorming</h1>
+            <h2>Brainstorming</h2>
             <p>Brainstorm information from the team and polls.</p>
             <details>
                 <summary>Vote on Issue</summary>
@@ -83,12 +100,17 @@
             </form>
         </span>
         <span>
-            <h3>Documentation</h3>
+            <h2>Documentation</h2>
             <p>Documentation and media from the meeting.</p>
+            <h3>Images:</h3>
+            <p>Website in action:</p>
             <img src="screenshots/example.png" alt="Example Website" width="130" height="100">
             <hr>
+            <h3>Audio & Video:</h3>
+            <p>Audio recording of meeting:</p>
             <audio controls src="recordings/chatrecording.mp3"> <a href="recordings/chatrecording.mp4">Meeting Recording</a></a></audio>
             <br>
+            <p>In-person recording of meeting:</p>
             <video controls width="250">
                 <source src="/recordings/meetingrecording.mp4" type="video/webm">
                 <source src="/recordings/meetingrecording.mp4" type="video/mp4">
@@ -98,9 +120,7 @@
     </section>
     <footer>
         <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" rows="2" cols="50">
-                Insert comment here...
-            </textarea>
+            <textarea id="comments" name="comments" rows="2" cols="40">Insert comment and notes to project leader here...</textarea>
     </footer>
   </body>
 </html>
