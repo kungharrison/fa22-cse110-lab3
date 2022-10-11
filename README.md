@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Website Link: [Github Page](<https://kungharrison.github.io/CSE110-lab2/> "Meeting Minutes")
+# Lab 3 - Starter
+Website Link: [Github Page](<https://kungharrison.github.io/fa22-cse110-lab3/> "Github Page")
