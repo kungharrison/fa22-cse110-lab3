@@ -118,3 +118,24 @@ nav {
     padding-bottom: 1ch;
 }
 
+#checkin {
+    display: flex;
+    align-items: stretch;
+    flex-flow: column;
+    row-gap: 0px;
+}
+
+#documentation {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 1px;
+}
+
+/* adjust font size based on device width resolution */
+@media (max-width: 800px) {
+    main {
+        font-size: 20px;
+    }
+}
+
