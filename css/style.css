@@ -1,13 +1,39 @@
 /* style.css for index.html */
 
-body {
-    background-color:#ECEFF1;
-    font-family:'Roboto', sans-serif;;
+header {
+    background-color:rgb(144, 164, 174);
+    border-radius:10px;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
 }
 
+.button {
+    background-color: rgb(55, 71, 79);
+    border-radius:20px;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: left;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #ECEFF1;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* title */
 h1 {
     color: hsl(200.00, 15.63, 62.35);
-    text-align:center;
+    border-style: solid;
+    border-radius:20px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 nav {
@@ -15,8 +41,20 @@ nav {
     border-radius: 20px;
     border-style: inset;
     border-color: rgb(55, 71, 79);
-    color:rgb(38, 50, 56);
+    color: rgb(38, 50, 56);
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 1ch;
 }
+
+.section {
+    background-color: rgb(144, 164, 174);
+    border-radius: 20px;
+    border-style: inset;
+    border-color: rgb(55, 71, 79);
+    color: rgb(38, 50, 56);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1ch;
+}
+
