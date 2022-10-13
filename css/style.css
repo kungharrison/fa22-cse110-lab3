@@ -1,0 +1,22 @@
+/* style.css for index.html */
+
+body {
+    background-color:#ECEFF1;
+    font-family:'Roboto', sans-serif;;
+}
+
+h1 {
+    color: hsl(200.00, 15.63, 62.35);
+    text-align:center;
+}
+
+nav {
+    background-color: rgb(144, 164, 174);
+    border-radius: 20px;
+    border-style: inset;
+    border-color: rgb(55, 71, 79);
+    color:rgb(38, 50, 56);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1ch;
+}
