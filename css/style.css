@@ -56,6 +56,26 @@ main {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #189ad6;
+}
+
+.textbox:active {
+    background-color: #189ad6;
+}
+
+.textbox {
+    display: inline;
+    background-color: rgb(190, 215, 228);
+    border-radius:20px;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 4px 5px;
+}
+
 body {
     background-color: #ECEFF1;
     font-family: 'Roboto', sans-serif;
