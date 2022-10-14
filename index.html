@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meeting minutes help record notes recorded during a meeting.">
@@ -8,22 +8,29 @@
     <meta name="author" content="Harrison Kung">
     <title>Meeting Minutes</title>
     <link rel="icon" href="images/calendaricon.ico" type="images/calendaricon.ico">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link google roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Meeting Minutes
+        <button type="button" class="button"> Add to bookmarks</button>
+        <button type="button" class="button"> Access git</button>
+    </header>
     <main>
-        <header>
-            <button type="button"> Add to bookmarks</button>
-        </header>
         <h1>Project B: First Brainstorm</h1>
-        <h3>Date: 10/15/2022 @ 8:00PM</h3>
-        <img src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
+        <h3 id="date">Date: 10/15/2022 @ 8:00PM</h3>
+        <img id="selfportrait" src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
         <br>
         <strong><em>This project is managed by team leader Harrison K.</em></strong>
         <hr> Project Description: A site to help control our meeting minutes. 
         <br> Link to github: <a href="https://github.com"><i>github.com</i></a>
         <hr>
-        <h3><i><b>Meeting Agenda:</b></i></h3>
         <nav>
+            <h3><i><b>Meeting Agenda:</b></i></h3>
             <p>Discuss Current Implemented Features:</p>
             <ul>
                 <li>Meeting Minutes</li>
@@ -48,8 +55,13 @@
                 <li>Jane</li>
             </ul>
         </nav>
+        <br>
+    <section class="section">
+        <span><i>Remember to message me on slack for scheduling issues!</i></span>
+        <br>
         <label for="event-choice">Suggest follow-up 1 on 1 meeting:</label>
         <input list="events" id="event-choice" name="event-choice">
+        <br>
         <datalist id="events">
             <option value="Software Meeting">
             <option value="Front-end Dev Meeting">
@@ -63,10 +75,10 @@
             <option value="team3">Mary</option>
             <option value="team4">Jane</option>
         </select>
-    </main>
-    <section>
+    </section>
+    <br>
+    <section id="brainstorm" class="section">
         <div>
-            <span>Remember to message me on slack for scheduling issues!</span>
             <h2>Brainstorming</h2>
             <p>Brainstorm information from the team and polls.</p>
             <details>
@@ -89,6 +101,9 @@
                 </form>
             </details>
         </div>
+    </section>
+    <br>
+    <section id="checkin" class="section">
         <h2>Check-ins</h2>
         <p>Check in here.</p>
         <form>
@@ -97,6 +112,9 @@
             <label for="date">Check in date:</label><br>
             <input type="date" id="date" name="date"><br>
         </form>
+    </section>
+    <br>
+    <section id="documentation" class="section">
             <h2>Documentation</h2>
             <p>Documentation and media from the meeting.</p>
             <h3>Images:</h3>
@@ -114,9 +132,11 @@
                 Video of Meeting
             </video>
     </section>
+    <br>
+    </main>
     <footer>
         <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" rows="2" cols="40">Insert comment and notes to project leader here...</textarea>
+            <textarea id="comments" class="textbox" rows="2" cols="40">Insert comment and notes to project leader here...</textarea>
     </footer>
   </body>
 </html>
