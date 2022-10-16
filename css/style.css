@@ -86,7 +86,7 @@ label ~ .textbox {
     padding: 5px 15px;
     text-align: center;
     font-size: 0.8rem;
-    margin: 4px 30px;
+    margin: 4px 50px;
 }
 
 body {
@@ -145,7 +145,7 @@ br + #documentation {
 
 #comments {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 50px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
