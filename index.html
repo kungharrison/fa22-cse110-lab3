@@ -22,7 +22,7 @@
     </header>
     <main>
         <h1>Project B: First Brainstorm</h1>
-        <h3 id="date">Date: 10/15/2022 @ 8:00PM</h3>
+        <h3 id="date" class="info">Date: 10/15/2022 @ 8:00PM</h3>
         <img id="selfportrait" src="images/selfportrait.jpg" alt="Self Portrait" width="130" height="100">
         <br>
         <strong><em>This project is managed by team leader Harrison K.</em></strong>
@@ -57,8 +57,9 @@
         </nav>
         <br>
     <section class="section">
-        <span><i>Remember to message me on slack for scheduling issues!</i></span>
-        <br>
+        <h2>Contact</h2>
+        <span><i><strong>Remember to message me on slack for scheduling issues!</strong></i></span>
+        <hr>
         <label for="event-choice">Suggest follow-up 1 on 1 meeting:</label>
         <input list="events" id="event-choice" name="event-choice">
         <br>
@@ -103,7 +104,7 @@
         </div>
     </section>
     <br>
-    <section id="checkin" class="section">
+    <section id="checkin" class="checkin section">
         <h2>Check-ins</h2>
         <p>Check in here.</p>
         <form>
@@ -135,8 +136,9 @@
     <br>
     </main>
     <footer>
-        <label for="comments">Comments:</label>
-            <textarea id="comments" class="textbox" rows="2" cols="40">Insert comment and notes to project leader here...</textarea>
+        <label id="comments" for="comments">Comments & Notes:</label>
+            <textarea id="comments" class="textbox" rows="5" cols="60">Insert comment and notes to project leader here...</textarea>
     </footer>
+    <br>
   </body>
 </html>
